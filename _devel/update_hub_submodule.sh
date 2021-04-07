@@ -4,8 +4,8 @@ git pull https://github.com/pytorch/hub
 popd
 cp _hub/images/* assets/images/
 
-python -c 'import notedown' || pip install notedown
-python -c 'import yaml' || pip install pyyaml
+python -c 'import notedown' || pip3 install notedown
+python -c 'import yaml' || pip3 install pyyaml
 mkdir -p assets/hub/
 
 pushd _hub
